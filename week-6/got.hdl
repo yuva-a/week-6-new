@@ -1,4 +1,4 @@
-CHIP got
+CHIP got // Sum of products
 {
     IN x,y,z;
     OUT out;
