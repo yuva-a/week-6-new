@@ -1,4 +1,4 @@
-CHIP me
+CHIP me //Adder
 {
     IN x[16],y[16];
     OUT s[16];
