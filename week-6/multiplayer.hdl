@@ -1,4 +1,4 @@
-CHIP multiplayer
+CHIP multiplayer //Wallace tree multipiyer
 {
     IN x[8],y[8];
     OUT out[16];
