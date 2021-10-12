@@ -1,0 +1,9 @@
+CHIP add
+{
+    IN x[8],y[8];
+    OUT s[9];
+
+    PARTS:
+    // 8 bit adder to 9 bit output 
+    me(x[0]=x[0],x[1]=x[1],x[2]=x[2],x[3]=x[3],x[4]=x[4],x[5]=x[5],x[6]=x[6],x[7]=x[7],x[8]=false,x[9]=false,x[10]=false,x[11]=false,x[12]=false,x[13]=false,x[14]=false,x[15]=false,y[0]=y[0],y[1]=y[1],y[2]=y[2],y[3]=y[3],y[4]=y[4],y[5]=y[5],y[6]=y[6],y[7]=y[7],y[8]=false,y[9]=false,y[10]=false,y[11]=false,y[12]=false,y[13]=false,y[14]=false,y[15]=false,s[0]=s[0],s[1]=s[1],s[2]=s[2],s[3]=s[3],s[4]=s[4],s[5]=s[5],s[6]=s[6],s[7]=s[7],s[8]=s[8],s[9]=s9,s[10]=s10,s[11]=s11,s[12]=s12,s[13]=s13,s[14]=s14,s[15]=s15);
+}

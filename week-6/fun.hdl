@@ -1,0 +1,10 @@
+CHIP fun
+{
+    IN x,y,z;
+    OUT out;
+
+    PARTS:
+    // xor of 3 bits 
+    Xor(a=x,b=y,out=t);
+    Xor(a=t,b=z,out=out);
+}
