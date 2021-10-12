@@ -1,4 +1,4 @@
-CHIP sevenbitxor
+CHIP sevenbitxor // XOR of the 7th bit 
 {
     IN S[9];
     OUT s[9];
