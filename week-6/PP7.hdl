@@ -1,4 +1,4 @@
-CHIP PP7
+CHIP PP7 //generating PP7 bus
 {
     IN P[8],p;
     OUT out[16];
