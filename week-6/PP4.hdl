@@ -1,4 +1,4 @@
-CHIP PP4
+CHIP PP4 //generating PP4 bus
 {
     IN P[8],p;
     OUT out[16];
