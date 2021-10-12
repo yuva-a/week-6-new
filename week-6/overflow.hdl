@@ -1,4 +1,4 @@
-CHIP overflow
+CHIP overflow  //to giv overflow bit
 {
     IN s[8],x,y;
     OUT out;
